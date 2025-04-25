@@ -228,6 +228,17 @@ Access the Flask app:
 curl http://<NODE-IP>:30004
 ```
 
+kubectl exec -it mysql-7f8dbdd66-b6667  -- bash
+mysql -u root -p
+SHOW DATABASES;
+USE mydb;
+SHOW TABLES;
+SELECT * FROM messages;
+
+
+
+
+
 ---
 
 ## Step 5: Cleanup
